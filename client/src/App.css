@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #0d0d0d;
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  background-color: #0d0d0d;
+}
+
+/* Navbar dark theme */
+.navbar,
+.ant-layout-header {
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid #e50914;
+}
+
+.navbar a,
+.navbar span,
+.navbar .ant-typography {
+  color: #ffffff !important;
+}
+
+.navbar a:hover {
+  color: #e50914 !important;
+}
+
+.ant-menu-horizontal,
+.ant-menu-dark {
+  background-color: #1a1a1a !important;
+  border-bottom: none !important;
+}
+
+.ant-menu-item {
+  color: #ffffff !important;
+}
+
+.ant-menu-item:hover,
+.ant-menu-item-selected {
+  color: #e50914 !important;
+}
