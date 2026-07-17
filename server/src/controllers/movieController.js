@@ -1,4 +1,4 @@
-const Movie = require("../models/movie.js");
+const Movie = require("../models/Movie.js");
 const sendResponse = require("../utilis/response");
 
 const addMovie = async (req, res) => {
